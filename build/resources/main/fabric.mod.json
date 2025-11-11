@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "coordsmod",
+  "version": "1.0.0",
+  "name": "CaT",
+  "description": "Server-side coordinates display when holding clock and compass",
+  "authors": ["AVCD"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/coordsmod/icon.png",
+  "environment": "server",
+  "entrypoints": {
+    "server": [
+      "com.example.coordsmod.CoordsMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "minecraft": "1.19.4",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}
